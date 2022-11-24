@@ -1,0 +1,126 @@
+@import url('https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf');
+@import url('https://fonts.cdnfonts.com/css/acumin-pro');
+.container{
+	width: 1440px;
+	margin: 0 auto;
+	font-family: helvetica;
+}
+/*Header*/
+
+header {
+	position: fixed;
+	top:0;
+	border: 1px;
+	height: 50px;
+	width: 100%;
+	background-color: #f6f8f9;
+	z-index: 100;
+}
+.active{
+	color:  #343638;
+	margin-left: 90px;
+	}
+.logo {
+	height: 11px;
+	width: 40px;
+	margin-left: 20px;
+	font-size: 13px;
+	color: #fa6980;
+}
+
+.avatar {
+	width: 30px;
+	height: 30px;
+    display: inline-flex;
+    margin-left: 39px;
+}
+
+nav, li, .header {
+	display: inline-block;
+	height: 9px;
+	font-size: 11px;
+	font-weight: bold;
+	color: lightgray;
+	padding-left: 20px;
+}
+
+/*Trending*/
+
+.trending {
+	height: 20px;
+	margin-left: 210px;
+	margin-top: 70px;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+.trending2 {
+	display: inline-block;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+.umbrella {
+	display: inline-block;
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+	width: 360px;
+	height: 180px;
+	border-radius: 10px;
+}
+
+.lake {
+	display: inline-block;
+	position: relative;
+	width: 360px;
+	height: 180px;
+	margin-top: 40px;
+	border-radius: 10px;
+}
+
+
+.head1 {
+	position: absolute;
+	transform: translate(42px, 10px);
+	color: #ffffff;
+	font-size: 16px;
+	font-family: helvetica;
+	width: 286px;
+	height: 16px;
+} 
+
+.text1 {
+	display: inline-block;
+	width: 281px;
+	height: 38px;
+	background-color: #ffffff;
+	margin: 100px 40px 39px 10px;
+	font-size: 13px;
+	font-weight: lighter;
+	color: gray;
+	font-family: 'Acumin Pro', sans-serif;
+}
+
+.time1 {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: lighter;
+	color: gray;
+	font-family: 'Acumin Pro', sans-serif;
+	margin-left: 10px;
+	margin-top: 50px;
+
+}
+
+/*Footer*/
+
+footer {
+	width:1440px;
+	height: 200px;
+	background-color: #a6adb4;
+	margin-top: 800px;
+	margin-left: 210px;
+}
+
+
